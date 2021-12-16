@@ -1,0 +1,11 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: spring-petclinic 
+spec:
+  template:
+    spec:
+      containers:
+        - image: index.docker.io/nikogianna19/test:c1
+          ports:
+            - containerPort: 8080
