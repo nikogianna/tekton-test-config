@@ -6,6 +6,6 @@ spec:
   template:
     spec:
       containers:
-        - image: index.docker.io/nikogianna19/test:43c02eedc701a48deec85cda89083a8f44e114fa
+        - image: index.docker.io/nikogianna19/test:0a472672629d307ff0742551b757da77b5dfa630
           ports:
             - containerPort: 8080
